@@ -1,0 +1,16 @@
+---
+users:
+    - username: ic-test
+      use_sudo: no
+
+    - username: mc-test
+      use_sudo: yes
+
+    - username: jle-test
+      use_sudo: no
+
+    - username: sp-test
+      use_sudo: no
+
+    - username: yr-test
+      use_sudo: no

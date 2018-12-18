@@ -1,0 +1,10 @@
+---
+
+- hosts: ec2-54-226-87-87.compute-1.amazonaws.com
+  become_user: root
+  become : yes
+  roles:
+    - weareinteractive.users
+  vars:
+      users_remove: [ic-test,mc-test,jle-test,sp-test,yr-test]
+      #users_remove: [ic-test]
